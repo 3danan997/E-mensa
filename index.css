@@ -1,0 +1,125 @@
+* {
+    font-family: "Century Gothic";
+}
+
+body {
+    margin: 5%;
+    border: 1px solid black;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: rgba(239, 239, 239, 0.93);
+    list-style-type: none;
+    border-bottom: black solid 1px;
+}
+
+.Logo {
+    Border: black solid 1px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.Links {
+    display: grid;
+    grid-template-columns: 15% 66%;
+    padding: 10px;
+    padding-left: 10%;
+}
+
+.Links li {
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+}
+
+.Linke {
+    display: inline;
+    border: black solid 1px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 2%;
+    background-color: white;
+}
+
+a {
+    color: cadetblue;
+}
+
+main {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+img {
+    /*margin: auto;*/
+    width: 100%;
+    height: 200px;
+    /*overflow: clip;*/
+    object-fit: cover;
+}
+h1{
+    color: chocolate;
+}
+.wichtig {
+    margin-left: 20%;
+}
+
+.Essen {
+    border: 1px solid black;
+    padding: 1%;
+
+}
+
+table.Preis {
+    border: black solid 1px;
+    border-collapse: collapse;
+}
+
+.Preis th, td {
+
+    border: solid black 1px;
+    padding: 1%;
+}
+
+.Info, th {
+    margin-left: 8%;
+    padding-right: 10px;
+    text-align: center;
+    align-content: center;
+}
+
+form div {
+    display: grid;
+    grid-template-columns: 18% 18% 25%;
+    column-gap: 1.5%;
+}
+
+.ende {
+    text-align: center;
+}
+
+footer {
+    border-top: black solid 1px;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+    padding: 1%;
+}
+
+footer li:nth-child(2) {
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+}
+td img{
+    scale: 70%;
+}
